@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn bài tập"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonExercise1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 1: Chuyển đổi nhiệt độ"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonExercise2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 2: Tính BMI" />
+    <Button
+        android:id="@+id/buttonExercise3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 3: Phép tính"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/buttonExercise4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 4: Thông tin học tập"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonExercise56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 5: Thiết kế giao diện"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
